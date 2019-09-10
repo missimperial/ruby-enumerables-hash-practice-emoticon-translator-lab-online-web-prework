@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, single)
   emo_hash[:get_emoticon][single]
   
    binding.pry
-end
+end 
 
 def get_english_meaning
   # code goes here
