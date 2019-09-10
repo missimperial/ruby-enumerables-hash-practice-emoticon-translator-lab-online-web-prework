@@ -14,7 +14,7 @@ def load_library(file_path)
     emo
 end
 
-def get_japanese_emoticon(file_path, emoticon)
+def get_japanese_emoticon(file_path, single)
   emo_hash = load_library(file_path)
   
   
