@@ -16,13 +16,14 @@ end
 
 def get_japanese_emoticon(file_path, single)
   emo_hash = load_library(file_path)
+  sorry_message = "Sorry, that emoticon was not found"
   if emo_hash[:get_emoticon].has_key?(single)
   emo_hash[:get_emoticon][single]
   else 
-    return "Sorry, unknown emoticon. Please try again."
+    return sorry_message
   end 
   
-   #binding.pry
+   binding.pry
 end 
 
 def get_english_meaning
