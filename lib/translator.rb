@@ -23,7 +23,7 @@ def get_japanese_emoticon(file_path, single)
     return sorry_message
   end 
   
-   binding.pry
+   #binding.pry
 end 
 
 def get_english_meaning
