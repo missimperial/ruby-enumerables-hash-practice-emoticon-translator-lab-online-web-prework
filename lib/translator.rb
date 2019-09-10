@@ -4,14 +4,14 @@ require 'pry'
 def load_library(file_path)
   emoticon = YAML.load_file("#{file_path}")
   
-  emo = {"get_meaning" => {}, "get_emoticon" => {} }
+  emo = {get_meaning: {}, get_emoticon: {} }
   
     emoticon.each do |meaning, value|
-      emo['get_meaning'][meaning] = value[1] 
-      emo['get_emoticon'][meaning] = value[0]
+      emo[:get_meaning][meaning] = value[1] 
+      emo[:get_emoticon][meaning] = value[0]
       #emo[0][0] = {japanese_emoticon: value[1], english_emoticon: value[0]}
       
-      #binding.pry
+      binding.pry
     end
 end
 
