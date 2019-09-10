@@ -11,8 +11,9 @@ def load_library(file_path)
       emo[:get_emoticon][meaning] = value[0]
       #emo[0][0] = {japanese_emoticon: value[1], english_emoticon: value[0]}
       
-      binding.pry
+      #binding.pry
     end
+    emo
 end
 
 def get_japanese_emoticon
