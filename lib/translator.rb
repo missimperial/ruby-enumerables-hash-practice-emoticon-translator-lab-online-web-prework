@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, single)
   if emo_hash[:get_emoticon].has_key?(single)
   emo_hash[:get_emoticon][single]
   else 
-    puts "Sorry, unknown emoticon. Please try again."
+    return "Sorry, unknown emoticon. Please try again."
   end 
   
    #binding.pry
