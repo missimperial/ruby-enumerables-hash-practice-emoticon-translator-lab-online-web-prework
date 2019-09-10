@@ -16,7 +16,7 @@ end
 
 def get_japanese_emoticon(file_path, single)
   emo_hash = load_library(file_path)
-  
+  emo_hash[:get_emoticon][single]
   
    binding.pry
 end
